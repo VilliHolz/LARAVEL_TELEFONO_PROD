@@ -1,0 +1,126 @@
+.bg-success {
+    background-color: #018e27 !important;
+    color: black !important;
+}
+
+/* btn-danger y bg-danger (rojo - Cancelar) */
+.btn-danger,
+.bg-danger {
+    background-color: #ed5a5a !important;
+    border-color: #ed5a5a !important;
+    color: white !important;
+}
+
+/* bg-info (azul - Editar) */
+.bg-info {
+    background-color: #4534b6 !important;
+    color: white !important;
+}
+
+/* bg-primary y btn-primary (morado - Nuevo evento, Notificaciones) */
+.bg-primary,
+.btn-primary {
+    background-color: #9682f2 !important;
+    border-color: #9682f2 !important;
+    color: white !important;
+}
+
+/* Border-primary (input morado) */
+.border-primary {
+    border-color: #9682f2 !important;
+}
+
+/* Texto en tabs - Eventos */
+.text-primary {
+    color: #9682f2 !important;
+}
+
+/* Texto - Proveedores (gris oscuro) */
+.text-dark {
+    color: #303030 !important;
+}
+
+/* Border - gris claro */
+.border-secondary {
+    border-color: #9682F2 !important;
+}
+
+.centered-text-top {
+    position: absolute;
+    top: 8%;
+    /* Ajusta este valor para controlar la distancia desde la parte superior */
+    left: 50%;
+    transform: translate(-50%, -20%);
+    /* Centra horizontalmente y ajusta verticalmente según el valor de 'top' */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    padding: 0 20px;
+    /* Añade un poco de espacio alrededor del texto */
+    color: white;
+    /* Ajusta el color del texto según lo necesites */
+    font-size: 1.2rem;
+    /* Tamaño del texto ajustable */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.centered-text-top-register {
+    position: absolute;
+    top: 10%;
+    /* Ajusta este valor para controlar la distancia desde la parte superior */
+    left: 50%;
+    transform: translate(-50%, -20%);
+    /* Centra horizontalmente y ajusta verticalmente según el valor de 'top' */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    padding: 0 20px;
+    /* Añade un poco de espacio alrededor del texto */
+    font-weight: bold;
+}
+
+.title {
+    font-size: 1rem;
+}
+
+.sub-title {
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hidden {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    /* Controla la duración de la animación */
+}
+
+.visible {
+    max-height: auto;
+    /* Establece un valor máximo que se ajuste a tus campos */
+    transition: max-height 0.9s ease-in;
+    /* Controla la duración de la animación */
+}
+
+span {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.rounded {
+    border-radius: 50% !important;
+    /* Hace el botón redondo */
+    width: 30px !important;
+    /* Ancho del botón */
+    height: 30px !important;
+    /* Alto del botón */
+    padding: 0 !important;
+    /* Quitar padding interno para que sea un círculo perfecto */
+}
+
+/* Opcional: Cambiar el tamaño del ícono */
+.btn-outline-danger i {
+    font-size: 14px;
+    /* Ajusta el tamaño del ícono dentro del botón */
+}
